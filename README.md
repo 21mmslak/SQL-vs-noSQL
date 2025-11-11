@@ -63,13 +63,6 @@ En viktig skillnad mellan `SQL` och `NoSQL` är hur de hanterar dataintegritet.
 
 Det gör `SQL` bättre lämpat för till exempel banktransaktioner, medan `NoSQL` passar bättre i system där snabbhet är viktigare än strikt datakonsistens.
 
-## Verklig användning
-### SQL används av:
-Banker, bokningssystem, lagerhantering och e-handelsplattformar som Shopify och WordPress.
-
-### NoSQL används av:
-Företag som Netflix, Spotify och Instagram – där datamängden är enorm, strukturen varierar och man behöver snabb åtkomst.
-
 ## Jämförelsetabell
 |   Aspekt  |  SQL  |  NoSQL  |
 | --------- | ----- | ------- |
