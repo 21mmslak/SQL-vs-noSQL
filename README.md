@@ -3,10 +3,10 @@ De första relationsdatabaserna utvecklades på 1970-talet, och `SQL` blev snabb
 
 ## Bakgrund
 ### SQL (Structured Query Language)
-`SQL` är ett språk som används i relationsdatabaser. Data lagras i tabeller med rader och kolumner, och relationer mellan tabeller kan definieras med nycklar. Exempel på databaser: mySQL, MariaDB och SQLite.
+`SQL` används i relationsdatabaser, där data organiseras i tabeller med rader och kolumner. Varje tabell representerar en typ av information, till exempel användare eller ordrar, och relationer mellan tabeller kan definieras med `primärnycklar` och `främmande nycklar` (foreign keys). Denna struktur gör det enkelt att undvika duplicerad data och hålla information konsekvent. `SQL-databaser` är mycket tillförlitliga och följer den så kallade `ACID-modellen` (Atomicity, Consistency, Isolation, Durability) som säkerställer att data alltid är korrekt, även vid systemfel. De passar särskilt bra i system där dataintegritet och transaktioner är viktiga, till exempel i betalningslösningar och lagerhantering.
 
 ### NoSQL (not only SQL)
-`NoSQL` är ett samlingsnamn för databaser som inte följer den traditionella tabellmodellen. De skapades för att hantera stora datamängder, hög prestanda och flexibel datamodellering. Exempel: MongoDB (dokumentdatabas)
+`NoSQL` är ett samlingsnamn för databaser som inte använder den klassiska tabellstrukturen. I stället lagras data ofta i form av `dokument`, `nyckel-värdepar`, `grafer` eller `kolumner`, beroende på typ av NoSQL-databas. Detta gör det möjligt att hantera ostrukturerad eller snabbt växande data, där olika poster inte behöver ha samma fält. `NoSQL-databaser` prioriterar flexibilitet, prestanda och skalbarhet framför strikt datakonsistens. De används ofta i moderna webbtjänster, appar och system som kräver snabb åtkomst till stora datamängder, till exempel realtidsanalyser, logghantering och användarprofiler.
 
 ## Datamodellering
 Exempel - anta att du vill spara användardata med namn, e-post och beställningar.
@@ -61,7 +61,7 @@ En viktig skillnad mellan `SQL` och `NoSQL` är hur de hanterar dataintegritet.
 
 `NoSQL-databaser` prioriterar istället skalbarhet och använder ofta modellen `BASE` (Basically Available, Soft state, Eventual consistency), vilket innebär att data kan vara tillfälligt inkonsistent men blir korrekt över tid.
 
-Det gör `SQL` bättre lämpat för t.ex. banktransaktioner, medan `NoSQL` passar bättre i system där snabbhet är viktigare än strikt datakonsistens.
+Det gör `SQL` bättre lämpat för till exempel banktransaktioner, medan `NoSQL` passar bättre i system där snabbhet är viktigare än strikt datakonsistens.
 
 ## Verklig användning
 ### SQL används av:
@@ -99,7 +99,7 @@ NoSQL – Fördelar:
 ```
 •	Flexibelt schema: du kan lägga till nya fält utan att ändra hela strukturen.
 •	Hög prestanda och skalbarhet: särskilt vid stora mängder ostrukturerad data.
-•	Bra för moderna appar: t.ex. realtidsdata, loggar, användarprofiler.
+•	Bra för moderna appar: till exempel realtidsdata, loggar, användarprofiler.
 •	Horisontell skalning: enkelt att lägga till fler servrar vid behov.
 ```
 NoSQL – Nackdelar:
