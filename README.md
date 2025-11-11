@@ -115,8 +115,11 @@ Valet mellan `SQL` och `NoSQL` handlar därför inte om vilket som är bäst, ut
 
 ## Källor
 https://www.mongodb.com/nosql-explained
+
 https://dev.mysql.com/doc/
+
 https://learn.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data
+
 https://aws.amazon.com/nosql/
 
 Av Bobo Backman – November 2025
