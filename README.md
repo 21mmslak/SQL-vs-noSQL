@@ -55,7 +55,7 @@ db.users.find(
 ```
 Här syns tydligt skillnaden: `SQL` använder en `JOIN` mellan två tabeller, medan `NoSQL` kan hämta hela dokumentet direkt eftersom informationen redan ligger samlad.
 
-## Dataintegritet och transaktioner
+## Dataintegritet och konsistens
 En viktig skillnad mellan `SQL` och `NoSQL` är hur de hanterar dataintegritet.
 `SQL-databaser` följer den så kallade `ACID-modellen` (Atomicity, Consistency, Isolation, Durability), vilket garanterar att data alltid är korrekt, även vid systemfel eller avbrott.
 
